@@ -1,0 +1,56 @@
+body{
+    background-image: url(../img/sky.jpg);
+    background-repeat: no-repeat;/*Se usa para que no se repita la imagen en casos de que sea tiny*/
+    background-position: auto center;
+}
+
+#wrapper{
+    font-family: "ABeeZee", Arial, serif;
+    font-weight: 400 ;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+/*Top Header CSS*/
+h1{
+    font-family: "ABeeZee", Arial, serif;
+    font-weight: 400 ;
+    display: none;
+}
+#logoHeader {
+    font-family: "Unkempt", Arial, serif;
+    font-weight: 400 ;
+    font-size: 80px;
+    text-align: center;
+}
+/*Navigation Menu List*/
+#mainNav ul li{
+    display: inline;
+}
+#mainNav ul li a{
+    /*display: block;*/
+    width: 120px;
+    display: inline-block;
+    text-decoration:none;
+    color: white;
+    text-align: center;
+    border:1px solid;
+    opacity: 0.4;
+}
+#mainNav ul li a:hover{
+    opacity: 1;
+}
+/*Footer CSS*/
+footer{
+    color: white;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    font-family: "Unkempt", Arial, serif;
+}
+footer div{
+    text-align: center;
+    color:#008b8b;
+    font-size: 35px;
+}
