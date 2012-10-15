@@ -1,3 +1,6 @@
+html{
+    height: 100%;
+}
 body{
     background-image: url(../img/sky.jpg);
     background-repeat: no-repeat;/*Se usa para que no se repita la imagen en casos de que sea tiny*/
@@ -14,7 +17,6 @@ body{
 }
 /*Top Header CSS*/
 h1{
-    font-family: "ABeeZee", Arial, serif;
     font-weight: 400 ;
     display: none;
 }
@@ -40,6 +42,33 @@ h1{
 }
 #mainNav ul li a:hover{
     opacity: 1;
+}
+/*mainContent CSS*/
+#mainContent{
+    margin-top:20px;
+}
+#mainContent h2{
+    border: 1px solid;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+#mainContent div{
+    margin: auto;
+    text-align: center;
+}
+#mainContent img{
+    width: 250px;
+}
+#mainContent span{
+    font-style: italic;
+    font-weight: bold;
+    color:#ffbef6;
+}
+#mainContent a:link{
+    text-decoration-line: line-through;
+    color: #ffbef6;
+}
+.myArticle{
 }
 /*Footer CSS*/
 footer{
